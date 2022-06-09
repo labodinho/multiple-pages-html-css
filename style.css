@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #161922;
+}
+
+
+/******* Header-section ***************/
+
+.logo{
+    color: #ffcc74;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0px 100px;
+    font-weight: bold;
+}
+
+.logo:hover{
+    color: #ffcc74;
+    transition: 0.6s;
+    font-size: 50px;
+    border-radius: 50px;
+}
+
+.nav-ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.nav-li{
+   
+    display: inline-block;
+    line-height: 60px;
+    margin: 0px 10px;
+}
+
+.nav-li a {
+    font-size: 30px;
+    padding: 7px 13px;
+    text-decoration: none;
+    color: #ffcc74;
+}
+
+a.active, a:hover{
+    background: #ffcc74;
+    color: #161922;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.check-box{
+    font-size: 30px;
+    color: #ffcc74;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+
+/******* Main Section ***************/
+
+.about{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+img{
+    height: auto;
+    width: 300px;
+    max-width: 100%;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+
+.about-text{
+    padding: 0 10px;
+    width: 700px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.content{
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me{
+    color: #ffcc74;
+    font-size: 70px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+
+
+
+/******* Main Section Two ***************/
+
+.info{
+    padding: 15px;
+    color: #ffcc74;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.more-about-me{
+    margin: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tops{
+    color: #ffcc74;
+    font-size: 30px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+}
+
+.hobbies{
+    box-shadow: 5px 8px 8px #ffcc74;
+    border-radius: 50px 0px 0px;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid #ffcc74;
+    flex: 1;
+    
+}
+
+.hob-ul{
+    color: #ffcc74;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+
+.priorities{
+    box-shadow: 5px 8px 8px #ffcc74;
+    padding: 40px;
+    border: 1px solid #ffcc74;
+    margin: 20px;
+    flex: 2;
+
+}
+
+.prop-ol {
+    color: #ffcc74;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.skills{
+    box-shadow: 5px 8px 8px #ffcc74;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid #ffcc74;
+    border-radius: 0px 0px 50px;
+    flex: 1;
+}
+
+.ski-ul{
+    color: #ffcc74;
+    margin: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+   
+}
+
+
+.button{
+    background-color: #ffcc74;
+    color: #161922;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 5px 30px;
+    margin: 10px;
+    border-radius: 30px;
+    height: 40px;
+    width: 70%;
+    
+}
+
+button a{
+    text-decoration: none;
+    background-color: #ffcc74;
+    color: #161922;
+    font-size: 25px;
+}
+
+button a:hover{
+    background-color: #161922;
+    color: #ffcc74;
+}
+
+button:hover{
+    transform: scale(1.2);
+    border: 1px solid #ffcc74;
+    background-color: #161922;
+    color: #ffcc74;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/******* Footer-section ***************/
+
+.footer{
+    justify-content: center;
+    text-align: center;
+    margin: 20PX;
+}
+
+.footer-text{
+    color: #ffcc74;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+}
+
+#soc{
+    color: #ffcc74;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#soc:hover{
+    color: #161922;
+    background: #ffcc74;
+    border-radius: 50px;
+}
+
+
+
+/******* Media Query ***************/
+
+
+@media screen and (max-width: 1180px) {
+    .about{
+        width: 100%;
+        height: auto;
+        padding: 70px 0px;
+    } 
+   
+}
+
+@media screen and (max-width: 952px) {
+    .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    } 
+
+    .nav-li a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 858px) {
+    .check-box{
+        display: block;
+    }
+
+    .nav-ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #161922;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    
+    .nav-li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+
+    .nav-li a{
+        font-size: 20px;
+    }
+
+    a:hover, a.active{
+        background: none;
+        color: #c5a163;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    img{
+        opacity: 9;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+     
+    .img{
+        margin-bottom: 35px;
+    }
+    .about-text{
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+    
+  
+}
+
+
+
+
+
+
+
+
+
+

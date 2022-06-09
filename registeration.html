@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <!----------Header section--------->
+    <header>
+
+        <nav>
+            <input type="checkbox" for="check" id="check">
+            <label class="check-box" for="check"><i class="fa fa-bars"></i></label>
+            <label class="logo">DinHo</label>
+            <ul class="nav-ul">
+                <li class="nav-li"> <a href="/index.html"> About Me</a></li>
+                <li class="nav-li"><a href="/contact.html"> Contact</a></li>
+                <li class="nav-li"><a class="active" href="/registeration.html"> Register</a></li>
+                <li class="nav-li"><a href="/login.html"> Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!----------Header section--------->
+
+    <form>
+
+        <table>
+            <tr>
+                <td class="tdata">First name</td>
+                <td><input type="text" class="t-inpt" maxlength="10" minlength="3" placeholder="first name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tdata">Last name</td>
+                <td><input class="t-inpt" type="text" maxlength="10" minlength="3" placeholder="last name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tdata">Phone</td>
+                <td><input type="text" placeholder="+234 706 0636 598" class="t-inpt" required></td>
+            </tr>
+
+            <tr>
+                <td class="tdata">Gender</td>
+                <td >
+                    <select  class="t-inpt" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tdata">Country</td>
+                <td><input type="text" class="t-inpt" maxlength="20" minlength="3" placeholder="Nigeria" required></td>
+            </tr>
+
+
+            <tr>
+                <td class="tdata">State/province</td>
+                <td><input class="t-inpt" type="text" maxlength="10" minlength="3" placeholder="Lagos" required></td>
+            </tr>
+
+            <tr>
+                <td class="tdata">E-mail</td>
+                <td><input type="email" class="t-inpt" placeholder="ola@gmail.com" required></td>
+            </tr>
+
+            <tr>
+                <td class="tdata">Password</td>
+                <td><input class="t-inpt" type="password" maxlength="8" minlength="3" placeholder="********" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tdata">Confirm Password</td>
+                <td><input class="t-inpt" type="password" maxlength="8" minlength="3" placeholder="********" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="10">
+                    <button type="submit" class="button">Submit</button>
+                </td>
+
+            </tr>
+
+        </table>
+
+    </form>
+
+
+    <!----------Footer section--------->
+
+    <div class="footer">
+        <a id="soc" class="fa fa-github" href="https://github.com/labodinho" target="_blank"></a>
+        <a id="soc" class="fa fa-twitter" href="https://twitter.com/labodinhoo" target="_blank"></a>
+        <a id="soc" class="fa fa-whatsapp" href="https://wa.memessage/LZIGI5X5KAXUE1" target="_blank"></a>
+        <p class="footer-text">Designed and Developed by Labodinho &copy; 2022</p>
+    </div>
+</body>
+
+</html>

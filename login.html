@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login page</title>
+</head>
+<body>
+        <!----------Header section--------->
+        <header>
+
+            <nav>
+                <input type="checkbox" for="check" id="check">
+                <label class="check-box" for="check"><i class="fa fa-bars"></i></label>
+                <label class="logo">DinHo</label>
+                <ul class="nav-ul">
+                    <li class="nav-li"> <a href="/index.html"> About Me</a></li>
+                    <li class="nav-li"><a href="/contact.html"> Contact</a></li>
+                    <li class="nav-li"><a href="/registeration.html"> Register</a></li>
+                    <li class="nav-li"><a class="active" href="/login.html"> Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <!----------Main section--------->
+
+   <div class="main">
+       <form>
+        <table>
+            <tr>
+                <td class="tdata">E-mail</td>
+                <td><input type="email" class="t-inpt" placeholder="ola@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td class="tdata">Password</td>
+                <td><input type="password" maxlength="10" minlength="5" class="t-inpt" placeholder="*******" required></td>
+            </tr>
+            <tr>
+                <td colspan="10">
+                    <button type="submit" class="button">Submit</button>
+                </td>
+            </tr>
+            
+        </table>
+        <div class="alter">
+            <span>Don't have an account?</span> <a href="/registeration.html" class="link">Register here</a>
+        </div>
+       </form>
+    
+   </div>
+
+
+
+    <!----------Footer section--------->
+
+    <div class="footer">
+        <a id="soc" class="fa fa-github" href="https://github.com/labodinho" target="_blank"></a>
+        <a id="soc" class="fa fa-twitter" href="https://twitter.com/labodinhoo" target="_blank"></a>
+        <a id="soc" class="fa fa-whatsapp" href="https://wa.memessage/LZIGI5X5KAXUE1" target="_blank"></a>
+        <p class="footer-text">Designed and Developed by Labodinho &copy; 2022</p>
+    </div>
+</body>
+</html>
